@@ -1,0 +1,16 @@
+go 1.20
+
+use (
+	./cc
+	./cd
+	./chat
+	./client
+	./data
+	./gowiki
+	./greetings
+	./hello
+	./ref
+	./web
+	./websocket
+	./rabbit
+)
