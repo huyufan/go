@@ -9,7 +9,7 @@ import (
 )
 
 func main() {
-
+	fmt.Println("f")
 	ctx, cancel := context.WithTimeout(context.Background(), time.Second)
 	fmt.Println(ctx)
 	cancel()
