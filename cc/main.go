@@ -10,6 +10,7 @@ import (
 
 func main() {
 	fmt.Println(6)
+	fmt.Println(7)
 	ctx, cancel := context.WithTimeout(context.Background(), time.Second)
 	fmt.Println(ctx)
 	cancel()
