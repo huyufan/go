@@ -59,7 +59,7 @@ func useLua(userid, prodid string) bool {
 	}
 	return true
 }
-func main() {
+func mainl() {
 	// 并发的版本
 	for i := 0; i < 80; i++ {
 		go func(i int) {
